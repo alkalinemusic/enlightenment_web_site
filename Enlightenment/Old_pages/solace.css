@@ -1,0 +1,118 @@
+body {
+	font-family: "Nunito", sans-serif;
+	/*background-color: #ed8f2f;*/
+	background: #2c3e50;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #101010;
+}
+
+.textBlurb h2 {
+	color: #a1aac4; 
+	font-size: 2.7rem;
+}
+
+.textBlurb p {
+	color: #000000;
+	font-weight: 500;
+	text-shadow: 0.3px 0.3px 0.5px #888888;
+	line-height: 2.0;
+}
+
+.content {
+	margin-top: 100px;
+}
+
+#header {
+	background: #2c3e50;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	/*background: */
+	/*url("https://images.unsplash.com/photo-1520789304460-c5885e7c675d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80")*/
+	center center / cover no-repeat;
+
+}
+
+#jumbo-header {
+	word-wrap: break-word;
+}
+
+.btn {
+	transition-duration: 0.5s;
+}
+.btn-outline-secondary {
+	padding: 0;
+	opacity: 0.75;
+	border: 1px solid #212121;
+	color: #212121;
+	box-shadow: 1px 1px 10px .1px #303030 inset;
+}
+
+.btn-outline-secondary:hover {
+	opacity: 1;
+	background-color: #2c3e50;
+	border: 1px solid #2c3e50;
+	box-shadow: 1px 1px 5px .1px #303030 inset;
+}
+
+
+
+#mainNavBar {
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+/*nav-link is the names in the navbar*/
+#mainNavBar .nav-link {
+	color: #a1aac4;
+}
+
+#mainNavBar .nav-link:hover {
+	color: #090945;
+}
+
+#mainNavBar #navBarTitle {
+	color: #090945;
+}
+
+/*Life link in the navigation bar*/
+#mainNavBar #navBarTitle:hover {
+	color: #a1aac4;
+}
+
+#mainNavBar .navbar-brand {
+	font-size: 1.6rem;
+	color: #090945;
+}
+
+/*icon in the navigation bar*/
+#icon01 {
+	color: #a1aac4;
+}
+
+#headingGroup h1 {
+	font-weight: 400;
+	font-size: 3.5rem;
+}
+
+
+#quote {
+	font-style: italic;
+}
+
+.rounded-corners {
+	border-radius: 3px;
+}
+
+.navbar.scrolled {
+	background: #2c3e50;
+	transition: background 300ms;
+}
+
+/*media query selectively apply styles based off screen sizes*/
+@media (max-width: 1270px) {
+	#headingGroup h1 {
+		font-size: 3rem;
+	}
+}
