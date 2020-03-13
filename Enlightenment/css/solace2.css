@@ -26,12 +26,12 @@ body {
 }
 
 #header {
-	background: #2c3e50;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*	background: #2c3e50;*/  /* fallback for old browsers */
+/*	background: -webkit-linear-gradient(to right, #3498db, #2c3e50);*/  /* Chrome 10-25, Safari 5.1-6 */
+/*	background: linear-gradient(to right, #3498db, #2c3e50);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-	/*background: */
-	/*url("https://images.unsplash.com/photo-1520789304460-c5885e7c675d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80")*/
+	background: 
+	url("https://images.unsplash.com/photo-1520789304460-c5885e7c675d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80")
 	center center / cover no-repeat;
 }
 
@@ -40,6 +40,10 @@ body {
 	color: #000000;
 	text-decoration: underline;
 	word-wrap: break-word;
+}
+
+.jumbotron {
+	min-height: 700px;
 }
 
 h1, h2	{
@@ -73,7 +77,8 @@ h1, h2	{
 
 /*nav-link is the names in the navbar*/
 #mainNavBar .nav-link {
-	color: #a1aac4;
+	/*color: #a1aac4;*/
+	color: #7081b8;
 }
 
 #mainNavBar .nav-link:hover {
@@ -86,7 +91,8 @@ h1, h2	{
 
 /*Life link in the navigation bar*/
 #mainNavBar #navBarTitle:hover {
-	color: #a1aac4;
+	/*color: #a1aac4;*/
+	color: #7081b8;
 }
 
 #mainNavBar .navbar-brand {
@@ -96,7 +102,8 @@ h1, h2	{
 
 /*icon in the navigation bar*/
 #icon01 {
-	color: #a1aac4;
+	/*color: #a1aac4;*/
+	color: #7081b8;
 }
 
 #headingGroup h1 {
