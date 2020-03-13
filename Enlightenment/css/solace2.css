@@ -26,13 +26,15 @@ body {
 }
 
 #header {
+	/*didn't end up using this gradient*/
 /*	background: #2c3e50;*/  /* fallback for old browsers */
 /*	background: -webkit-linear-gradient(to right, #3498db, #2c3e50);*/  /* Chrome 10-25, Safari 5.1-6 */
 /*	background: linear-gradient(to right, #3498db, #2c3e50);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	background: 
+/*image of person on boat - burnt orange light wash-out*/
+	background: #3498db
 	url("https://images.unsplash.com/photo-1520789304460-c5885e7c675d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80")
 	center center / cover no-repeat;
+	
 }
 
 .headerForContact a {
